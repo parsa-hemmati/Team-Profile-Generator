@@ -158,7 +158,7 @@ function promptMenu() {
     fs.mkdirSync(OUTPUT_DIR);
     }
     fs.writeFileSync(outputPath, render(employees), 'utf-8');
-    console.log("The HTML has been generated at ${outputPath}");
+    console.log("The HTML has been generated at", outputPath);
     }
     
     promptManager();      
